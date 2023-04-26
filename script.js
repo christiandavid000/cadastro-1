@@ -9,5 +9,5 @@ function Verificar() {
     let csenha = document.getElementById('csenha').value;
 
     if(!nome || !telefone || !nascimento || !cpf || !email || !endereco || !senha || !csenha)
-    alert("Campos de preenchimento obrigatório vazio!")
+    alert("Campos de preenchimento obrigatório vazio!");
 }
